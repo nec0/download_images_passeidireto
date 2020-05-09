@@ -54,12 +54,10 @@ def img_pdf(nome):
 
 def main():
     print(("\nDOWNLOAD DE IMAGENS DO PASSEIDIRETO\n\n")
-            +('Passo a passo:\n')
             +('[1] Insira a Url do material\n')
             +('[2] Nome para identificar as imagens baixadas\n')
             +('[3] Quantidade de páginas\n')
-            +('[4] Reuna as imagens com auxilio da ferramenta nativa do windows, imprimir -> pdf -> salvar \n')
-            +('[+] Leia o README\n'))
+            +('[4] Salvar ou não como pdf (padrão: A4)\n'))
 
     time.sleep(3)
     print('-> INFORMAÇÕES <-')
@@ -72,7 +70,7 @@ def main():
     convert_pdf = str(input('\nCONVERTER EM PDF? (SIM/NÃO) ')).upper()
     if convert_pdf == 'SIM':
         img_pdf(nome)
-        print('Imagens e PDF salvos!')
+        print('PDF salvo!')
     else:
         print('Ok, imagens salvas!')
 
