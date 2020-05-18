@@ -2,9 +2,7 @@
 
 Realize download de materiais do passeidireto facilmente.
 
-## Aviso Legal
-
-Use isso somente para livros que você possui licença legal. Não promovermos o uso deste script para fins ilegais.
+*Desenvolvido com intuito de estudo de web-scraping, recomendo que não comercialize ou matenha cópias não autorizadas de livros*
 
 ---
 ### Como usar?
